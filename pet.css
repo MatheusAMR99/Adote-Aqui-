@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.Container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(9, 243, 243);
+height: 100px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#icon
+{
+   display: flex;
+
+}
+.logo
+{   
+    display: flex;
+        
+   
+
+}
+.Info
+{
+    display: flex;
+    gap: 1rem;
+
+    
+}
