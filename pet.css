@@ -1,35 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;500&family=Roboto:wght@100&display=swap');
+
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; 
+    padding:0;
     box-sizing: border-box;
-    
+    text-decoration: none; 
+   
 }
+body{
+    font-size: 100%;
+    background: linear-gradient(to left, rgb(99, 132, 138),rgb(28, 183, 194),rgb(192, 238, 238));
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 .Container{
 display: flex;
 justify-content: space-around;
 align-items: center;
-background-color: rgb(9, 243, 243);
+gap: 30rem;
 height: 100px;
-font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
 
 }
 
-#icon
+#titulo{
+    color: aliceblue;
+    font-size: 30px
+}
+
+.titulo-select
 {
    display: flex;
+   gap: 4rem;
+   font-size: 20px;
+   color: aliceblue;
 
 }
-.logo
-{   
-    display: flex;
-        
-   
 
-}
-.Info
-{
-    display: flex;
-    gap: 1rem;
+.conteudo{
+    display: block;
+    justify-content: space-around;
+    color: aliceblue;
 
-    
 }
