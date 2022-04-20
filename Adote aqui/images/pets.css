@@ -74,10 +74,30 @@ body {
 .animais
 {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row-wrap;
+    justify-content: space-around;
+    gap: 30 rem;
 }
-.bernar
+
+.animalinfo{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+}
+#roger
 {
-border: 10px;
+    display: flex;
+    
+
+}
+#nome1
+{
+
+
+
+   
+
 }
